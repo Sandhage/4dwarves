@@ -1,0 +1,24 @@
+{
+  "name": "4dwarves",
+  "version": "1.0.0",
+  "description": "A homebrew web-app for the DnD game that I run.",
+  "main": "index.js",
+  "scripts": {
+    "production": "webpack -p",
+		"start":			"webpack-dev-server --inline --progress --colors --hot"
+  },
+  "author": "Kyle Sandhage <kylesandhage@gmail.com> (http://kylesandhage.com)",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-react": "^6.22.0",
+    "html-webpack-plugin": "^2.26.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
